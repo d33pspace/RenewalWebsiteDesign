@@ -11,6 +11,11 @@
   <PropertyGroup>
     <UserSecretsId>aspnet-RenewalWebsiteDesign-c053b086-42fb-4826-87e5-fee5f65b55d3</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot/js\site.js" />
+    <Content Remove="wwwroot/js\site.min.js" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
