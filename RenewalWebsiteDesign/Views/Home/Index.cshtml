@@ -8,11 +8,6 @@
         <figcaption class="figure-caption caption">The Renewal Center relies on gifts of time and money to help displaced people in Shanghai find support, employment and permanent homes.</figcaption>
     </div>
     <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-        <a class="btn one indicator done">Choose your amount</a>
-        <!--<a class="btn one indicator done"><img src="~/images/enter-your-details@2x.png" width="205"></a>
-        <a class="btn one indicator done"><img src="~/images/enter-your-details@2x.png" width="205"></a>-->
-        <a class="btn two indicator to-do">Enter your details</a>
-        <a class="btn three indicator to-do">Donation Complete!</a>
         <h2 class="mt-4">My gift of hot meals for homeless men and women</h2>
         <p>Yes, I want to offer the basic kindness of a hot meal while I hold the door open for people who want to walk through and into a new life. Please use my support to also offer showers, clean clothes, shelter and valuable job training. I’m sending:</p>
         <ul class="list-unstyled rmb-options mb-5">
@@ -50,192 +45,161 @@
             </select>
             months.
         </div>
-
-        <!-- Pager -->
         <div class="clearfix mt-4 mb-5">
             <a class="btn btn-secondary" href="#">DONATE NOW <i class="arrow right-arrow"></i></a>
         </div>
-    </div>
-</div>
-    </div>
 
-<hr>
-<div class="container pad-top">
-    <div class="row">
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-            <img src="~/images/slide-1.jpg" class="figure-img img-fluid" alt="donate page image">
-            <figcaption class="figure-caption caption">The Renewal Center relies on gifts of time and money to help displaced people in Shanghai find support, employment and permanent homes.</figcaption>
-        </div>
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-            <a class="btn one indicator done">Choose your donation</a>
-            <a class="btn two indicator done">Enter your details</a>
-            <a class="btn three indicator to-do">Donation Complete!</a>
-            <h2 class="mt-4">My gift of hot meals for homeless men and women</h2>
-            <p class="din-demi">Please enter your details below:</p>
-            <form>
-                <div class="form-group row">
-                    <div class="col-6 pr5">
-                        <label for="InputName" class="col-form-label sr-only">First and Last Name</label>
-                        <input type="text" class="form-control" id="InputName" placeholder="First and Last Name">
-                    </div>
-                    <div class="col-6 pl5">
-                        <label for="InputEmail" class="col-form-label sr-only">Email</label>
-                        <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
-                    </div>
+        <hr />
+
+        <a class="btn one indicator done">Choose your amount</a>
+        <a class="btn two indicator done">Enter your details</a>
+        <a class="btn three indicator to-do">Donation Complete!</a>
+
+        <h2 class="mt-4">My gift of hot meals for homeless men and women</h2>
+        <p class="din-demi">Please enter your details below:</p>
+        <form>
+            <div class="form-group row">
+                <div class="col-6 pr5">
+                    <label for="InputName" class="col-form-label sr-only">First and Last Name</label>
+                    <input type="text" class="form-control" id="InputName" placeholder="First and Last Name">
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    <p id="passwordHelpBlock" class="form-text text-muted">
-                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-                    </p>
+                <div class="col-6 pl5">
+                    <label for="InputEmail" class="col-form-label sr-only">Email</label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
                 </div>
-                <div class="form-group">
-                    <label class="control-label" for="card-number">Card Number</label>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <p id="passwordHelpBlock" class="form-text text-muted">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="card-number">Card Number</label>
+                <div>
+                    <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label class="control-label" for="expiry-month">Expiration Date</label>
                     <div>
-                        <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group col-lg-6 col-sm-12">
-                        <label class="control-label" for="expiry-month">Expiration Date</label>
-                        <div>
-                            <div class="row">
-                                <div class="col-6 pr5">
-                                    <select class="form-control" name="expiry-month" id="expiry-month">
-                                        <option>Month</option>
-                                        <option value="01">Jan (01)</option>
-                                        <option value="02">Feb (02)</option>
-                                        <option value="03">Mar (03)</option>
-                                        <option value="04">Apr (04)</option>
-                                        <option value="05">May (05)</option>
-                                        <option value="06">June (06)</option>
-                                        <option value="07">July (07)</option>
-                                        <option value="08">Aug (08)</option>
-                                        <option value="09">Sep (09)</option>
-                                        <option value="10">Oct (10)</option>
-                                        <option value="11">Nov (11)</option>
-                                        <option value="12">Dec (12)</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 pl5">
-                                    <select class="form-control" name="expiry-year">
-                                        <option value="13">2013</option>
-                                        <option value="14">2014</option>
-                                        <option value="15">2015</option>
-                                        <option value="16">2016</option>
-                                        <option value="17">2017</option>
-                                        <option value="18">2018</option>
-                                        <option value="19">2019</option>
-                                        <option value="20">2020</option>
-                                        <option value="21">2021</option>
-                                        <option value="22">2022</option>
-                                        <option value="23">2023</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 form-group">
-                        <label class="control-label" for="cvv">Card CVV</label>
                         <div class="row">
-                            <div class="col-8">
-                                <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code">
+                            <div class="col-6 pr5">
+                                <select class="form-control" name="expiry-month" id="expiry-month">
+                                    <option>Month</option>
+                                    <option value="01">Jan (01)</option>
+                                    <option value="02">Feb (02)</option>
+                                    <option value="03">Mar (03)</option>
+                                    <option value="04">Apr (04)</option>
+                                    <option value="05">May (05)</option>
+                                    <option value="06">June (06)</option>
+                                    <option value="07">July (07)</option>
+                                    <option value="08">Aug (08)</option>
+                                    <option value="09">Sep (09)</option>
+                                    <option value="10">Oct (10)</option>
+                                    <option value="11">Nov (11)</option>
+                                    <option value="12">Dec (12)</option>
+                                </select>
+                            </div>
+                            <div class="col-6 pl5">
+                                <select class="form-control" name="expiry-year">
+                                    <option value="13">2013</option>
+                                    <option value="14">2014</option>
+                                    <option value="15">2015</option>
+                                    <option value="16">2016</option>
+                                    <option value="17">2017</option>
+                                    <option value="18">2018</option>
+                                    <option value="19">2019</option>
+                                    <option value="20">2020</option>
+                                    <option value="21">2021</option>
+                                    <option value="22">2022</option>
+                                    <option value="23">2023</option>
+                                </select>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-secondary mt-3 mb-5">Make Payment <i class="arrow right-arrow"></i></button>
-            </form>
-        </div>
-    </div>
-</div>
-<hr>
-<div class="container pad-top">
-    <div class="row">
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-            <img src="~/images/slide-2.jpg" class="figure-img img-fluid" alt="letter page image">
-            <figcaption class="figure-caption caption">The Renewal Center relies on gifts of time and money to help displaced people in Shanghai find support, employment and permanent homes.</figcaption>
-        </div>
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-            <h2>A letter from our director</h2>
-            <p>Dear friends,</p>
-            <p>Looking across my desk just now, I can see men like Tang Yan He walking into the Renewal Center, looking for help. This has suddenly made me think about how many more will arrive during the coming cold winter months, seeking a hot meal and warm shelter.</p>
-            <p>So I’m writing you to ask for your help, in advance. Before winter sets in.</p>
-            <p>As the Center’s founder, it’s my responsibility – through your generosity – to try to meet the needs of everyone who comes through those doors. Both men and women rely on us for showers, warm winter clothes, a friendly welcome and help finding a good job. Not to mention a good, hot meal and a comfortable bed.</p>
-            <p>Your gift now would save the life of someone like Tang Yan He this winter, and probably change his life forever. “I have no connection with home,” he says. “I miss them very much but I dare not go back.” He is 60 years old and from Tianjin.</p>
-            <p>For some legal issue, he was thrown in jail for three years. When he was released, his wife wanted a divorce. “I went to drinking alcohol when I miss my family,” he says. “I lost almost all my teeth and drank all day.”</p>
-            <p>This was very humiliating for him. “I was a neat person in Tianjin.” So his time at the Renewal Center, he says, “helps me to have dignity again.” And find friends. At other places, yes, he could get bread and noodles, “but you always go back to the same point.”</p>
-            <p>Now that he’s here, he has hope for the future. And as others pour in needing help, I need to be able to cover our heating bill. To help the team cook and serve enough hot food to feed everyone who comes to us. We try never to turn people away.</p>
-            <p>Whether you give online now, or would like us to bring by our point of sale, I hope you will please help the Renewal Center reach more and more men – and women – like Tang Yan He during the freezing cold winter months in Shanghai. I and they will thank you.</p>
-            <img src="~/images/signature-jimmy.gif" class="figure-img img-fluid signature" alt="Jimmy Signature">
-        </div>
-    </div>
-</div>
-<hr>
-<div class="container pad-top">
-    <div class="row">
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1">
-            <img src="~/images/slide-3.jpg" class="figure-img img-fluid" alt="letter page image">
-            <figcaption class="figure-caption caption">The Renewal Center relies on gifts of time and money to help displaced people in Shanghai find support, employment and permanent homes.</figcaption>
-        </div>
-        <div class="col-lg-6 offset-lg-0 offset-md-2 col-md-8 offset-sm-1 mb-5">
-            <h2 class="mt-4">More ways to make a difference at the center:</h2>
-            <h5 class="mt-3">Connect with us</h5>
-            <p>Follow us on your favourite social media accounts and sign up for our email communications</p>
-            <ul class="list-inline text-center">
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-stack-2x"></i>
-                            <i class="fa fa-twitter fa-stack-1x"></i>
-                        </span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-stack-2x"></i>
-                            <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-stack-2x"></i>
-                            <i class="fa fa-instagram fa-stack-1x"></i>
-                        </span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-stack-2x"></i>
-                            <i class="fa fa-weixin fa-stack-1x"></i>
-                        </span>
-                    </a>
-                </li>
-            </ul>
-            <form class="contact mt-5">
-                <div class="form-group row">
-                    <div class="col-6">
-                        <label for="InputName" class="col-form-label sr-only">Name</label>
-                        <input type="text" class="form-control" id="InputName" placeholder="Name">
-                    </div>
-                    <div class="col-6">
-                        <label for="InputEmail" class="col-form-label sr-only">Email</label>
-                        <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                <div class="col-lg-6 col-md-12 form-group">
+                    <label class="control-label" for="cvv">Card CVV</label>
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code">
+                        </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-secondary mb-5">SIGN UP<i class="arrow right-arrow"></i></button>
-            </form>
-            <h4>Visit</h4>
-            <p>One a month, we welcome supporters and partners to visit the Renewal Center. Please let us know if you’d like to visit, drop off a financial donation or gift in kind or learn more about how you can volunteer. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> for more details and to arrange a visit.</p>
-            <h4>Volunteer</h4>
-            <p>Do you have free time during the day, in the evenings or on weekends when you could contribute your valuable time and skills towards our work at the Renewal Center? We have several volunteering opportunities we’d love to discuss with you. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> to learn more about our volunteer programs at the Center.</p>
-            <h4>Give a gift in kind</h4>
-            <p>We appreciate gifts of tangible items that help us more effectively reach the displaced people of Shanghai. Items like clothing and household items are especially helpful, but we’ll consider taking almost anything you can give. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> to let us know how you can help today.</p>
-            <h4>Partner with us</h4>
-            <p>Our work would be impossible without the support of local businesses who offer valuable employment opportunities to our residents. Our business and organizational partners also provide volunteers, supply much-needed hot meals, make donations in kind and offer vital financial support. If you’re interested in partnering with the Renewal Center, please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a>, and we’d be happy to talk to you!</p>
-        </div>
+            </div>
+            <button type="submit" class="btn btn-secondary mt-3 mb-5">Make Payment <i class="arrow right-arrow"></i></button>
+        </form>
+
+        <hr />
+
+        <h2>A letter from our director</h2>
+        <p>Dear friends,</p>
+        <p>Looking across my desk just now, I can see men like Tang Yan He walking into the Renewal Center, looking for help. This has suddenly made me think about how many more will arrive during the coming cold winter months, seeking a hot meal and warm shelter.</p>
+        <p>So I’m writing you to ask for your help, in advance. Before winter sets in.</p>
+        <p>As the Center’s founder, it’s my responsibility – through your generosity – to try to meet the needs of everyone who comes through those doors. Both men and women rely on us for showers, warm winter clothes, a friendly welcome and help finding a good job. Not to mention a good, hot meal and a comfortable bed.</p>
+        <img src="~/images/signature-jimmy.gif" class="figure-img img-fluid signature" alt="Jimmy Signature">
+
+        <hr />
+
+        <h2 class="mt-4">More ways to make a difference at the center:</h2>
+        <h5 class="mt-3">Connect with us</h5>
+        <p>Follow us on your favourite social media accounts and sign up for our email communications</p>
+        <ul class="list-inline text-center">
+            <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-instagram fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-weixin fa-stack-1x"></i>
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <form class="contact mt-5">
+            <div class="form-group row">
+                <div class="col-6">
+                    <label for="InputName" class="col-form-label sr-only">Name</label>
+                    <input type="text" class="form-control" id="InputName" placeholder="Name">
+                </div>
+                <div class="col-6">
+                    <label for="InputEmail" class="col-form-label sr-only">Email</label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-secondary mb-5">SIGN UP<i class="arrow right-arrow"></i></button>
+        </form>
+        <h4>Visit</h4>
+        <p>One a month, we welcome supporters and partners to visit the Renewal Center. Please let us know if you’d like to visit, drop off a financial donation or gift in kind or learn more about how you can volunteer. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> for more details and to arrange a visit.</p>
+        <h4>Volunteer</h4>
+        <p>Do you have free time during the day, in the evenings or on weekends when you could contribute your valuable time and skills towards our work at the Renewal Center? We have several volunteering opportunities we’d love to discuss with you. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> to learn more about our volunteer programs at the Center.</p>
+        <h4>Give a gift in kind</h4>
+        <p>We appreciate gifts of tangible items that help us more effectively reach the displaced people of Shanghai. Items like clothing and household items are especially helpful, but we’ll consider taking almost anything you can give. Please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a> to let us know how you can help today.</p>
+        <h4>Partner with us</h4>
+        <p>Our work would be impossible without the support of local businesses who offer valuable employment opportunities to our residents. Our business and organizational partners also provide volunteers, supply much-needed hot meals, make donations in kind and offer vital financial support. If you’re interested in partnering with the Renewal Center, please <a asp-controller="Home" asp-action="Index" class="styled-link">contact us</a>, and we’d be happy to talk to you!</p>
     </div>
+</div>
